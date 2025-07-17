@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container a {
+    text-decoration: none;
+    color: inherit;
+}
+html , body{
+      font-family: 'Roboto Condensed' ;
+}
+ul li{
+    list-style: none;
+}
+header{
+    background-color: #f1f1f1;
+}
+header nav ul li a{
+    font-size: 28px;
+    font-weight: 400;
+}
