@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Alice';
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.divider{
+  height: 200px;
+}
+
+header {
+  background: rgba(244, 247, 234, 0.578);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  position: sticky;
+  top: 0;
+}
+.hero{
+  background-color: #e5e3dc;
+}
+.hero .bg-img{
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero .hero-text-heading .header{
+  color:#c08f74;
+}
+.hero .hero-text-heading .p-text  p{
+  font-size: 22px;
+}
+.card-body

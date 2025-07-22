@@ -1,0 +1,13 @@
+/* xl */
+@media(max-width:1399px){
+    .container-xl{
+        max-width: 1140px;
+    }
+}
+
+/* lg */
+@media(max-width:1199px){
+    .container-xl{
+        max-width: 960px;
+    }
+}
