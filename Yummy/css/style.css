@@ -5,10 +5,10 @@
     --theme-header-font: 'Amatic SC', cursive;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    font-family: var(--theme-text-font);
+    color: var(--theme-text-grey);
+    line-height: 1.6;
 }
 
 .logo-link {
