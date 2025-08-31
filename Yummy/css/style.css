@@ -66,3 +66,9 @@ body {
     display: flex;
     align-items: center;
 }
+.icon i {
+    font-size: 2rem;
+    color: #d41919;
+    margin-right: 10px;
+}
+
