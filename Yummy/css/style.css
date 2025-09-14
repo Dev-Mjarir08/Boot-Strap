@@ -108,3 +108,39 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(212, 25, 25, 0.5);
 }
 /* portfolio end */
+/* blog start */
+.blog h2 span {
+    color: #d41919;
+}
+.blog .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.blog .card:hover {
+    transform: translateY(-10px);
+}
+.blog .card-title {
+    font-family: var(--theme-header-font);
+    color: var(--theme-header-grey);
+}
+.blog .card-text {
+    font-family: var(--theme-text-font);
+    color: var(--theme-text-grey);
+}
+.blog .card-img-top {
+    border-radius: 5px;
+}
+.blog .btn {
+    background-color: #d41919;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.blog .btn:hover {
+    background-color: #a81313;
+}
+.blog .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(212, 25, 25, 0.5);
+}
+/* blog end */
